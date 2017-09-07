@@ -1,12 +1,12 @@
-#!/bin/bash
+#!/bin/sh
 
 # ------------------------
 # Framework Diffs
 #
 # Usage:
-# In a git bash terminal just run the command:
+# In a terminal just run the command:
 #
-# bash compare.sh framework-a.pkg framework-b.pkg
+# sh compare.sh framework-a.pkg framework-b.pkg
 #
 # ------------------------
 
@@ -47,7 +47,6 @@ git checkout -b framework-a
 git checkout framework-a
 cd ../
 cp -R framework-a/. git/
-# tar -vxjf $1 -C git
 cd git
 git add .
 git commit -m "commiting framework-a framework files"
@@ -58,7 +57,6 @@ git checkout master
 git checkout -b framework-b
 cd ../
 cp -R framework-b/. git/
-# tar -vxjf $2 -C git
 cd git
 git add .
 git commit -m "commiting framework-b framework files"

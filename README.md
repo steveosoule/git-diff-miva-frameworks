@@ -1,6 +1,6 @@
 # git-diff-miva-frameworks
 
-Script to Extract two Miva .pkg framework files, create git branches out of them, and launch [gitk](https://git-scm.com/docs/gitk) for diff'ing
+Shell Script to Extract two Miva .pkg framework files, create git branches out of them, and launch [gitk](https://git-scm.com/docs/gitk) for diff'ing
 
 ![gitk Screenshot](screenshots/gitk.jpg)
 
@@ -8,9 +8,9 @@ Script to Extract two Miva .pkg framework files, create git branches out of them
 
 1. Get Miva Framework .pkg files for the two frameworks that you want to compare.
 2. Put the `compare.sh` file in the same directory as the two frameworks.
-3. Open up a [git-bash terminal](https://git-scm.com/downloads) and execute the following command:
+3. Open up a [git terminal](https://git-scm.com/downloads) and execute the following command:
 ```
-bash process.sh framework-a.pkg framework-b.pkg
+sh process.sh framework-a.pkg framework-b.pkg
 ```
 4. Wait for the process to run (It should take about 30-60 seconds.)
 5. It will launch `gitk` so you can visually compare the two git branches. In `gitk` you can:
