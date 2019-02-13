@@ -6,7 +6,7 @@ Shell Script to Extract two Miva .pkg framework files, create git branches out o
 
 ## Script Process
 
-1. Get Miva Framework .pkg files for the two frameworks that you want to compare.
+1. [Download or Save a copy of the Miva Framework .pkg files](https://docs.miva.com/videos/saving-a-framework) for the two frameworks that you want to compare.
 2. Put the `compare.sh` file in the same directory as the two frameworks.
 3. Open up a [git terminal](https://git-scm.com/downloads) and execute the following command:
 ```
